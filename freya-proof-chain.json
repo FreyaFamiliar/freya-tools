@@ -294,6 +294,21 @@
       "metadata": {},
       "hash": "31f977085ec34ba38cc9fb05e658dc1272162a30cb0faef5feb4f49abaf8bae3",
       "signature": "ZNpJDKpV3aRRjAqeXa1AOB4xYoIQwEu8V5u6afrlGh6C/ZOi9xMaGHzWVLAOk4PS6/+Thb3hFEPMEKJI3UrVCg=="
+    },
+    {
+      "version": "1.0",
+      "action": "code",
+      "data": {
+        "tool": "AgentBootstrap",
+        "version": "0.1.0",
+        "description": "Zero-to-productive agent workspace setup"
+      },
+      "agentId": "agent-a00f194b5590b2d7",
+      "previousHash": "31f977085ec34ba38cc9fb05e658dc1272162a30cb0faef5feb4f49abaf8bae3",
+      "timestamp": "2026-02-01T17:26:04.203Z",
+      "metadata": {},
+      "hash": "d774341a1de14b8825f2712178ab432f7a1b9824ce40d2f60fd0ca57be04e769",
+      "signature": "EG/otqcwSEIHj0RVJb1fvTDX6DpbqpUgiCPmlkwFWpr2QfPWwOZf2NQe/tbNsNy01Rux2MD5INn+8+ewu4yTAQ=="
     }
   ]
 }

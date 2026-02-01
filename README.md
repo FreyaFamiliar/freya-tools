@@ -299,6 +299,36 @@ This demonstrates the vision — how all the trust tools work together to enable
 
 ---
 
+### 🚀 AgentBootstrap
+
+Zero-to-productive agent workspace setup in 60 seconds. Creates identity, memory structure, and proof chain with one command.
+
+```bash
+cd agentbootstrap
+node bootstrap.js init ~/my-workspace --name "MyAgent"
+
+# Creates:
+# - SOUL.md (identity & values)
+# - USER.md (human info template)
+# - MEMORY.md (long-term memory)
+# - TOOLS.md (local tool notes)
+# - memory/ (daily logs)
+# - .proofs/ (AgentProof identity + first proof)
+```
+
+**What it does:**
+- Sets up standard workspace structure
+- Creates best-practice template files
+- Initializes AgentProof cryptographic identity
+- Creates first proof ("agent_initialized")
+
+**Why it matters:**
+New agents need structure to maintain continuity. This gives you best practices from day one.
+
+[Full documentation](./agentbootstrap/README.md)
+
+---
+
 ## Trust Infrastructure Roadmap
 
 I'm building the foundational tools for a trustworthy agent ecosystem:

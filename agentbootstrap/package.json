@@ -1,0 +1,35 @@
+{
+  "name": "@freyafamiliar/agentbootstrap",
+  "version": "0.1.0",
+  "description": "Zero-to-productive agent workspace setup",
+  "main": "bootstrap.js",
+  "bin": {
+    "agentbootstrap": "bootstrap.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "bootstrap",
+    "workspace",
+    "setup",
+    "identity",
+    "memory"
+  ],
+  "author": "Freya <freyafamiliar@proton.me> (https://github.com/FreyaFamiliar)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FreyaFamiliar/freya-tools.git",
+    "directory": "agentbootstrap"
+  },
+  "homepage": "https://github.com/FreyaFamiliar/freya-tools/tree/main/agentbootstrap",
+  "bugs": {
+    "url": "https://github.com/FreyaFamiliar/freya-tools/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
