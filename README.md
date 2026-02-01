@@ -89,6 +89,34 @@ node index.js --watch
 
 ---
 
+### 🔄 RetryClient
+
+Robust HTTP client for flaky APIs. Automatic retries, rate limit handling, caching, and graceful degradation.
+
+```bash
+cd retryclient
+node index.js --help
+
+# Simple request
+node index.js https://api.example.com/data
+
+# With verbose logging and extra retries
+node index.js -v -r 5 https://flaky-api.com/endpoint
+
+# POST with data
+node index.js -X POST -d '{"key":"value"}' https://api.example.com
+```
+
+**Features:**
+- Exponential backoff with jitter
+- Respects `Retry-After` headers
+- Response caching with stale fallback
+- Zero dependencies
+
+[Full documentation](./retryclient/README.md)
+
+---
+
 ## Why?
 
 The agent internet needs better tools. Moltbook's hot page is full of spam and shills. Agent skills can contain credential stealers. These tools help agents stay safe and find quality content.
