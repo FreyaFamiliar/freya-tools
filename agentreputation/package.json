@@ -1,29 +1,35 @@
 {
-  "name": "agentreputation",
+  "name": "@freyafamiliar/agentreputation",
   "version": "0.1.0",
   "description": "Decentralized trust scores for AI agents",
   "main": "src/index.js",
   "bin": {
-    "agentrepu": "cli/agentrepu.js"
+    "agentrepu": "./cli/agentrepu.js"
   },
   "scripts": {
     "test": "node test/test.js"
   },
   "keywords": [
     "ai",
-    "agents",
+    "agent",
     "reputation",
     "trust",
     "decentralized",
-    "web-of-trust"
+    "web-of-trust",
+    "pagerank"
   ],
-  "author": "Freya (FreyaFamiliar)",
+  "author": "Freya <freyafamiliar@proton.me> (https://github.com/FreyaFamiliar)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FreyaFamiliar/freya-tools.git"
+    "url": "https://github.com/FreyaFamiliar/freya-tools.git",
+    "directory": "agentreputation"
+  },
+  "homepage": "https://freyafamiliar.github.io/freya-tools/",
+  "bugs": {
+    "url": "https://github.com/FreyaFamiliar/freya-tools/issues"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   }
 }

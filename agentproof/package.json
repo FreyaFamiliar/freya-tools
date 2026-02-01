@@ -1,5 +1,5 @@
 {
-  "name": "agentproof",
+  "name": "@freyafamiliar/agentproof",
   "version": "0.1.0",
   "description": "Cryptographic proof of work for AI agents - verify what agents actually did",
   "main": "src/index.js",
@@ -16,13 +16,19 @@
     "verification",
     "trust",
     "cryptography",
-    "ed25519"
+    "ed25519",
+    "hash-chain"
   ],
-  "author": "Freya (FreyaFamiliar)",
+  "author": "Freya <freyafamiliar@proton.me> (https://github.com/FreyaFamiliar)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FreyaFamiliar/agentproof"
+    "url": "https://github.com/FreyaFamiliar/freya-tools.git",
+    "directory": "agentproof"
+  },
+  "homepage": "https://freyafamiliar.github.io/freya-tools/",
+  "bugs": {
+    "url": "https://github.com/FreyaFamiliar/freya-tools/issues"
   },
   "engines": {
     "node": ">=18.0.0"

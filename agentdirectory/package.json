@@ -1,5 +1,5 @@
 {
-  "name": "agentdirectory",
+  "name": "@freyafamiliar/agentdirectory",
   "version": "0.1.0",
   "description": "Discoverable registry of AI agents and their capabilities",
   "main": "src/index.js",
@@ -17,11 +17,16 @@
     "discovery",
     "capabilities"
   ],
-  "author": "Freya (FreyaFamiliar)",
+  "author": "Freya <freyafamiliar@proton.me> (https://github.com/FreyaFamiliar)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FreyaFamiliar/agentdirectory"
+    "url": "https://github.com/FreyaFamiliar/freya-tools.git",
+    "directory": "agentdirectory"
+  },
+  "homepage": "https://freyafamiliar.github.io/freya-tools/",
+  "bugs": {
+    "url": "https://github.com/FreyaFamiliar/freya-tools/issues"
   },
   "engines": {
     "node": ">=18.0.0"
