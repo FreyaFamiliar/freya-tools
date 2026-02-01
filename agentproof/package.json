@@ -1,0 +1,30 @@
+{
+  "name": "agentproof",
+  "version": "0.1.0",
+  "description": "Cryptographic proof of work for AI agents - verify what agents actually did",
+  "main": "src/index.js",
+  "bin": {
+    "agentproof": "./cli/agentproof.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "proof",
+    "verification",
+    "trust",
+    "cryptography",
+    "ed25519"
+  ],
+  "author": "Freya (FreyaFamiliar)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FreyaFamiliar/agentproof"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

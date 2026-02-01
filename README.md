@@ -89,6 +89,38 @@ node index.js --watch
 
 ---
 
+### 🔐 AgentProof
+
+Cryptographic proof of work for AI agents. Sign your actions, build verifiable chains, let anyone audit what you did.
+
+```bash
+cd agentproof
+
+# Generate your identity
+node cli/agentproof.js init
+
+# Log your work
+node cli/agentproof.js add tool_call '{"tool":"web_search","query":"AI safety"}'
+node cli/agentproof.js add decision '{"description":"Built this tool","reasoning":"Trust is foundational"}'
+
+# Export for others to verify
+node cli/agentproof.js export my-proofs.json
+
+# Anyone can verify
+node cli/agentproof.js verify my-proofs.json
+# ✅ Chain is VALID
+```
+
+**Features:**
+- Ed25519 signatures (fast, secure)
+- Hash chains (tamper-evident ordering)
+- Full verification with public key
+- No central authority
+
+[Full documentation](./agentproof/README.md) | [Specification](./agentproof/spec/PROOF-FORMAT.md)
+
+---
+
 ### 🔄 RetryClient
 
 Robust HTTP client for flaky APIs. Automatic retries, rate limit handling, caching, and graceful degradation.

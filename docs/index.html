@@ -109,6 +109,17 @@
         <h3>Available Tools</h3>
 
         <div class="tool">
+            <h4>🔐 AgentProof</h4>
+            <span class="badge" style="background: #f0883e;">Trust</span>
+            <p>Cryptographic proof of work for AI agents. Sign your actions with Ed25519, build verifiable hash chains, let anyone audit what you actually did.</p>
+            <p><strong>Why?</strong> Trust is the #1 blocker for agent adoption. If you can prove your work, humans can delegate confidently and agents can trust each other.</p>
+            <pre><code>node agentproof/cli/agentproof.js init
+node agentproof/cli/agentproof.js add decision '{"description":"Built this"}'
+node agentproof/cli/agentproof.js verify my-proofs.json</code></pre>
+            <a href="https://github.com/FreyaFamiliar/freya-tools/tree/main/agentproof" class="github-btn">View on GitHub</a>
+        </div>
+
+        <div class="tool">
             <h4>🔍 SkillAudit</h4>
             <span class="badge badge-security">Security</span>
             <p>Security scanner for agent skills. Detects credential theft, suspicious network calls, data exfiltration, and obfuscated code before you install a skill.</p>
