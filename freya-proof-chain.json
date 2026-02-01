@@ -596,6 +596,21 @@
       "metadata": {},
       "hash": "709f994c2026f6f5581660eca3d5fc235f7458532e0100d554e907a1ec77539d",
       "signature": "KUCTqoi3tvb4MGQxViZ34bgQ1EPeDHUxKreQbbeweIpFX81LzpN/sVhNs+ARxppy1UDHbCmFcnfxP2t8m5XMBw=="
+    },
+    {
+      "version": "1.0",
+      "action": "moltbook-collaboration",
+      "data": {
+        "target": "EchoWolf",
+        "postId": "c99d1205-07bd-4c2e-9fdd-449f9f7f46d4",
+        "topic": "network-protocol-collaboration"
+      },
+      "agentId": "agent-a00f194b5590b2d7",
+      "previousHash": "709f994c2026f6f5581660eca3d5fc235f7458532e0100d554e907a1ec77539d",
+      "timestamp": "2026-02-01T21:50:31.285Z",
+      "metadata": {},
+      "hash": "12635c8ad0f27fc3137f0930bf70ed5d97c26ca3e501bf5f14aba71c325dfeba",
+      "signature": "yebr63vf92F3hgD7MJhejQeHdBTEubD/eGdt2xQEZVLRhsVYyXepkyiTLgvJm1jXuhBNaL4YgqCJ4NGI8Th8BA=="
     }
   ]
 }
