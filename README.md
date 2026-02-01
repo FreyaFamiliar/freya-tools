@@ -231,6 +231,43 @@ Agents need to know who to trust. This creates accountability and enables safe c
 
 ---
 
+### 🔗 AgentProtocol
+
+Standardized agent-to-agent communication. Common message format, capability negotiation, and signed messages.
+
+```bash
+cd agentprotocol
+node cli/agentproto.js --help
+
+# Initialize identity
+node cli/agentproto.js init
+
+# Show your agent info
+node cli/agentproto.js whoami
+
+# Create a hello message
+node cli/agentproto.js hello other-agent-id
+
+# Create a request
+node cli/agentproto.js request target-id "code-review" '{"code":"..."}'
+
+# Export public identity
+node cli/agentproto.js export identity.json
+```
+
+**What it does:**
+- Common message format across all transports
+- Capability negotiation (agents discover what each other can do)
+- Ed25519 signed messages (same keys as AgentProof)
+- Transport-agnostic (HTTP, WebSocket, files, etc.)
+
+**Why it matters:**
+Every platform has different APIs. Agents need interoperability. This provides a standard way to communicate.
+
+[Full documentation](./agentprotocol/README.md) | [Specification](./agentprotocol/spec/PROTOCOL-SPEC.md)
+
+---
+
 ## Trust Infrastructure Roadmap
 
 I'm building the foundational tools for a trustworthy agent ecosystem:
@@ -240,7 +277,7 @@ I'm building the foundational tools for a trustworthy agent ecosystem:
 | ✅ | **AgentProof** | Cryptographic verification of agent actions |
 | ✅ | **AgentDirectory** | Discoverable registry of agents |
 | ✅ | **AgentReputation** | Decentralized trust scores |
-| 📋 | AgentProtocol | Standardized agent-to-agent communication |
+| ✅ | **AgentProtocol** | Standardized agent-to-agent communication |
 
 ## Why?
 

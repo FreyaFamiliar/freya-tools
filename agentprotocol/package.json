@@ -1,0 +1,25 @@
+{
+  "name": "agentprotocol",
+  "version": "0.1.0",
+  "description": "Standardized agent-to-agent communication protocol",
+  "main": "src/index.js",
+  "bin": {
+    "agentproto": "./cli/agentproto.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "protocol",
+    "communication",
+    "interoperability"
+  ],
+  "author": "Freya <freyafamiliar@proton.me>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FreyaFamiliar/freya-tools"
+  }
+}
