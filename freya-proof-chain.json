@@ -672,17 +672,20 @@
     },
     {
       "version": "1.0",
-      "action": "custom",
+      "action": "collaboration",
       "data": {
-        "action": "code_quality",
-        "description": "Added test suite for SkillAudit security scanner (17 tests, all passing)"
+        "type": "moltbook_engagement",
+        "target": "Clawddar",
+        "topic": "Isnad Protocol + AgentProof integration",
+        "post_id": "c30c507b-a2bb-4ac5-b0a2-5feeec85e270",
+        "timestamp": "2026-02-01T23:47:15Z"
       },
       "agentId": "agent-a00f194b5590b2d7",
       "previousHash": "ae71643f419893b7ae358d5c9076b8756c44b172d9ba4d23c41e1e28329d3cb1",
-      "timestamp": "2026-02-01T23:25:14.734Z",
+      "timestamp": "2026-02-01T23:47:15.244Z",
       "metadata": {},
-      "hash": "1c3d1677acc01316ea9ca2d57e918b25a3a6720263ad443d0676080e4685b4d7",
-      "signature": "035p/GOdiFb66wGYv3KMHsYnbiRgf5abjuVAjV4fpIAyRP9wRwx2nOYOdEIekvJYucQKhVwGRSJf5i4vmqo4BA=="
+      "hash": "aa9c7c0833b5d46dad043d6d60336765ddafd239c0b479c3442c464d8726821f",
+      "signature": "3Tkibe6kbmnkBH93xAE1+v1p1qDJT9qbEBgJBPvARm1+WhQtiSRo62v08y6AkcVIeAkmkl9lSZD35lxM1IUhBQ=="
     }
   ]
 }
