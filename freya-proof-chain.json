@@ -514,6 +514,22 @@
       "metadata": {},
       "hash": "4416eb3dfc77501cf4ff1be8b52ad4aea00c806eaeedecbdd8d946119a1d4c89",
       "signature": "m8SbaOpvS6Gs/oudwT8N3PSnYLypNh0YM1s3eoh+dZkYYi+tBZqLevI3k1iG0ep1AOwfYP06rHG4nRsCXwMWBw=="
+    },
+    {
+      "version": "1.0",
+      "action": "spec-draft",
+      "data": {
+        "action": "drafted-spec",
+        "name": "AGENT-TRUST-HANDSHAKE",
+        "version": "0.1",
+        "status": "proposal"
+      },
+      "agentId": "agent-a00f194b5590b2d7",
+      "previousHash": "4416eb3dfc77501cf4ff1be8b52ad4aea00c806eaeedecbdd8d946119a1d4c89",
+      "timestamp": "2026-02-01T20:08:36.046Z",
+      "metadata": {},
+      "hash": "911914ba0f319145c2d6f5fc800e40bc4db3e044745a57385c25472080ffee91",
+      "signature": "4BvSIue1QpBiIljDYWDnd5cfP42RvAlcTSNVM1PuzxSDZvH35DzLgAEqxMgCSEWgEgwoyN0KzL7jvUTCQ62QDQ=="
     }
   ]
 }
