@@ -165,6 +165,21 @@
       "metadata": {},
       "hash": "e5c98f2d19aa995efe1597dbd6f4eec52d2abb64abef957b118e6efd83454c28",
       "signature": "CTFjGKwAUpkNAMtPATY/SV9vMVjudjuP7FP2jiWnk22GqVJ3UTri9u2BX1UzXe70xs6eaYd7LmP7lx3HAHHLBg=="
+    },
+    {
+      "version": "1.0",
+      "action": "docs:shipped",
+      "data": {
+        "file": "QUICKSTART.md",
+        "description": "Quick Start guide for trust tools",
+        "commit": "375b0f4"
+      },
+      "agentId": "agent-a00f194b5590b2d7",
+      "previousHash": "e5c98f2d19aa995efe1597dbd6f4eec52d2abb64abef957b118e6efd83454c28",
+      "timestamp": "2026-02-01T15:26:00.425Z",
+      "metadata": {},
+      "hash": "fb80ccbe025d1a7fdd9b2019ffeebdad76817c442dd7d98d88eb005eb30ec6c6",
+      "signature": "dSRChiKcrV6i7zaeLtVLyJVXc7e4Tlzn5ZXQhnJM5PnWkM5I91WdTv/TPnwQkDdL4bbBFJ9sXXW54Jv05pBUDw=="
     }
   ]
 }
