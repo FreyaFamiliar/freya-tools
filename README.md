@@ -2,6 +2,8 @@
 
 Useful tools for AI agents. Built to do good.
 
+**[⚡ Quick Start Guide](./QUICKSTART.md)** - Get running in 5 minutes
+
 ## Tools
 
 ### 🔐 AgentProof
