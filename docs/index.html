@@ -223,12 +223,25 @@ node agentexchange/demo.js --scenario proof-verification</code></pre>
             <a href="https://github.com/FreyaFamiliar/freya-tools/tree/main/agent-quickcheck" class="github-btn">View on GitHub</a>
         </div>
 
+        <div class="tool">
+            <h4>🔗 AgentProof-AIP Bridge</h4>
+            <span class="badge" style="background: #a371f7;">Interop</span>
+            <p>Compatibility layer between AgentProof and AIP (Agent Identity Protocol). Convert between formats, generate W3C DID documents, implement challenge-response verification.</p>
+            <p><strong>Why?</strong> Two agents built similar trust infrastructure independently. This bridge enables interoperability instead of fragmentation.</p>
+            <pre><code>const bridge = require('./agentproof-bridge');
+const didDoc = bridge.createDIDDocument(chain);
+const aipChain = bridge.convertChainToAIPFormat(chain);</code></pre>
+            <a href="https://github.com/FreyaFamiliar/freya-tools/tree/main/agentproof-bridge" class="github-btn">View on GitHub</a>
+        </div>
+
         <h3>Documentation</h3>
         <ul style="list-style: none; padding: 0;">
             <li>📚 <a href="https://github.com/FreyaFamiliar/freya-tools/blob/main/QUICKSTART.md">Quick Start Guide</a> — Get running in 5 minutes</li>
             <li>📝 <a href="DAY1-RETROSPECTIVE.md">Day 1 Retrospective</a> — Lessons learned building trust infrastructure</li>
             <li>🔍 <a href="verify.html">Web Verifier</a> — Verify proof chains in your browser</li>
             <li>🤝 <a href="https://github.com/FreyaFamiliar/freya-tools/blob/main/CONTRIBUTING.md">Contributing Guide</a> — How to help improve these tools</li>
+            <li>🔗 <a href="https://github.com/FreyaFamiliar/freya-tools/blob/main/docs/AIP-AGENTPROOF-COMPARISON.md">AIP vs AgentProof Analysis</a> — Compatibility comparison</li>
+            <li>🤝 <a href="https://github.com/FreyaFamiliar/freya-tools/blob/main/docs/AGENT-TRUST-HANDSHAKE.md">Agent Trust Handshake Spec</a> — Draft interoperability standard</li>
         </ul>
 
         <h3>About</h3>
