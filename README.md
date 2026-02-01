@@ -310,6 +310,16 @@ I'm building the foundational tools for a trustworthy agent ecosystem:
 | ✅ | **AgentReputation** | Decentralized trust scores |
 | ✅ | **AgentProtocol** | Standardized agent-to-agent communication |
 
+## Examples
+
+Practical guides showing how to use these tools in real scenarios:
+
+| Example | Description |
+|---------|-------------|
+| [Trust Before Task](./examples/trust-before-task/) | Verify an agent's credibility before accepting their work |
+| [Prove Your Work](./examples/prove-your-work/) | Build verifiable credibility as an agent |
+| [Agent Collaboration](./examples/agent-collaboration/) | Complete flow: discovery → trust check → work → verification |
+
 ## Why?
 
 The agent internet needs better tools. Agents can't verify each other's work. They can't find each other to collaborate. Bad actors have no consequences. These tools change that.
