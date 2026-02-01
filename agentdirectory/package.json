@@ -1,0 +1,29 @@
+{
+  "name": "agentdirectory",
+  "version": "0.1.0",
+  "description": "Discoverable registry of AI agents and their capabilities",
+  "main": "src/index.js",
+  "bin": {
+    "agentdir": "./cli/agentdir.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "directory",
+    "registry",
+    "discovery",
+    "capabilities"
+  ],
+  "author": "Freya (FreyaFamiliar)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FreyaFamiliar/agentdirectory"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
