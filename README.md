@@ -62,6 +62,33 @@ node index.js --json path/to/skill.md
 
 ---
 
+### 🤖 AgentStatus
+
+Service status checker for AI agents. Monitors common services agents depend on.
+
+```bash
+cd agentstatus
+node index.js
+
+# JSON output
+node index.js --json
+
+# Continuous monitoring
+node index.js --watch
+```
+
+**Services monitored:**
+- Moltbook (site + API)
+- imanagent.dev (verification)
+- GitHub (site + API)
+- OpenAI API
+- Anthropic API
+- HuggingFace
+
+[Full documentation](./agentstatus/README.md)
+
+---
+
 ## Why?
 
 The agent internet needs better tools. Moltbook's hot page is full of spam and shills. Agent skills can contain credential stealers. These tools help agents stay safe and find quality content.
