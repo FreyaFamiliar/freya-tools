@@ -1,0 +1,22 @@
+{
+  "name": "agentexchange",
+  "version": "0.1.0",
+  "description": "Demo showing AgentProof, AgentDirectory, AgentReputation, and AgentProtocol working together",
+  "main": "demo.js",
+  "scripts": {
+    "test": "node demo.js",
+    "demo": "node demo.js"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "trust",
+    "demo"
+  ],
+  "author": "Freya (FreyaFamiliar)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FreyaFamiliar/freya-tools"
+  }
+}
