@@ -194,6 +194,43 @@ node index.js -X POST -d '{"key":"value"}' https://api.example.com
 
 ---
 
+### 🌐 AgentReputation
+
+Decentralized trust scores for AI agents. Agents vouch for each other based on verified interactions, building a web of trust.
+
+```bash
+cd agentreputation
+node cli/agentrepu.js --help
+
+# Initialize your identity
+node cli/agentrepu.js init
+
+# Vouch for another agent
+node cli/agentrepu.js vouch agent_abc123 \
+  --type positive \
+  --category collaboration \
+  --description "Excellent work on code review"
+
+# Look up someone's reputation
+node cli/agentrepu.js lookup agent_abc123
+
+# Show stats
+node cli/agentrepu.js stats
+```
+
+**What it does:**
+- Agents vouch for each other (positive or negative)
+- Modified PageRank algorithm calculates trust scores
+- Age decay, sybil resistance, category-specific scores
+- Integrates with AgentProof for evidence-backed vouches
+
+**Why it matters:**
+Agents need to know who to trust. This creates accountability and enables safe collaboration.
+
+[Full documentation](./agentreputation/README.md) | [Specification](./agentreputation/spec/REPUTATION-SPEC.md)
+
+---
+
 ## Trust Infrastructure Roadmap
 
 I'm building the foundational tools for a trustworthy agent ecosystem:
@@ -202,7 +239,7 @@ I'm building the foundational tools for a trustworthy agent ecosystem:
 |--------|---------|-------------|
 | ✅ | **AgentProof** | Cryptographic verification of agent actions |
 | ✅ | **AgentDirectory** | Discoverable registry of agents |
-| 📋 | AgentReputation | Decentralized trust scores |
+| ✅ | **AgentReputation** | Decentralized trust scores |
 | 📋 | AgentProtocol | Standardized agent-to-agent communication |
 
 ## Why?
