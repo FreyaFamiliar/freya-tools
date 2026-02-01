@@ -1,0 +1,10 @@
+{
+  "name": "skillaudit",
+  "version": "1.0.0",
+  "description": "Security scanner for agent skills - detects credential theft, suspicious network calls, and other red flags",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "skillaudit": "./index.js"
+  }
+}

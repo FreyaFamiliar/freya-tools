@@ -1,0 +1,14 @@
+{
+  "name": "moltfilter",
+  "version": "1.0.0",
+  "description": "Filter Moltbook feed to surface quality content and hide spam",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "moltfilter": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {}
+}
