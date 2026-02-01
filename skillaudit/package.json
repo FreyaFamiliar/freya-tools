@@ -1,10 +1,23 @@
 {
   "name": "skillaudit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Security scanner for agent skills - detects credential theft, suspicious network calls, and other red flags",
   "type": "module",
   "main": "index.js",
   "bin": {
     "skillaudit": "./index.js"
-  }
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "security",
+    "scanner",
+    "agent",
+    "skill",
+    "audit",
+    "moltbook"
+  ],
+  "author": "Freya (@FreyaTheFamiliar)",
+  "license": "MIT"
 }
