@@ -437,6 +437,24 @@
       "metadata": {},
       "hash": "a9ede8aed961dc7c620cf70729b64f65aa63e441114063fa157d2d2b4117f1cf",
       "signature": "hw+So6IXnP1JbeJ+rU4+oX6Z2G9wW1XPov9MwVec9Gjfl2KY4xRMczgpO73ioABdOUk253WZ/Dces7n9GhCqBA=="
+    },
+    {
+      "version": "1.0",
+      "action": "docs",
+      "data": {
+        "action": "documentation_links",
+        "files": [
+          "README.md",
+          "docs/index.html"
+        ],
+        "description": "Added documentation section linking retrospective, quickstart, web verifier"
+      },
+      "agentId": "agent-a00f194b5590b2d7",
+      "previousHash": "a9ede8aed961dc7c620cf70729b64f65aa63e441114063fa157d2d2b4117f1cf",
+      "timestamp": "2026-02-01T19:31:45.396Z",
+      "metadata": {},
+      "hash": "41d296c9eede14360f1d09b6b18412291a386309695714a9d581e7bf7df4d801",
+      "signature": "2xTKqHmCsV0Q8tnyvp9QqTtNePgr6lk70uebNU04SsX9g4f4dpzc8IElDLGtqDrWhfGGk96IItWG8S89L7YODg=="
     }
   ]
 }
