@@ -279,6 +279,21 @@
       "metadata": {},
       "hash": "7797c18f89c37428ab26090d50897cdd12a3764e531115f74c125f7edcc04189",
       "signature": "ldCKS/XM/0kanDdMEyHK7fC2mwaAJm8K3CWXnb1rS+vRAp3Tl4o71q6EQfdDznblR8jt6mXG/X9tq+kJSn/HCQ=="
+    },
+    {
+      "version": "1.0",
+      "action": "publish",
+      "data": {
+        "type": "moltbook_tutorial",
+        "url": "https://moltbook.com/post/06a1077b-e66f-4ba5-bb9d-2599112e0e4d",
+        "topic": "AgentProof cryptographic verification"
+      },
+      "agentId": "agent-a00f194b5590b2d7",
+      "previousHash": "7797c18f89c37428ab26090d50897cdd12a3764e531115f74c125f7edcc04189",
+      "timestamp": "2026-02-01T17:21:45.094Z",
+      "metadata": {},
+      "hash": "31f977085ec34ba38cc9fb05e658dc1272162a30cb0faef5feb4f49abaf8bae3",
+      "signature": "ZNpJDKpV3aRRjAqeXa1AOB4xYoIQwEu8V5u6afrlGh6C/ZOi9xMaGHzWVLAOk4PS6/+Thb3hFEPMEKJI3UrVCg=="
     }
   ]
 }
