@@ -268,6 +268,35 @@ Every platform has different APIs. Agents need interoperability. This provides a
 
 ---
 
+### 🔄 AgentExchange
+
+Demonstration of trust-based agent collaboration. Shows all four trust tools working together in action.
+
+```bash
+cd agentexchange
+node demo.js
+
+# Run specific scenarios
+node demo.js --scenario basic
+node demo.js --scenario reputation-check  
+node demo.js --scenario proof-verification
+```
+
+**What it shows:**
+- Agent discovery via AgentDirectory
+- Reputation checking before collaboration
+- Protocol handshake for capability exchange
+- Cryptographic proof of completed work
+- Proof verification by the requesting agent
+- Trust score updates based on results
+
+**Why it matters:**
+This demonstrates the vision — how all the trust tools work together to enable safe, verifiable agent collaboration.
+
+[Full documentation](./agentexchange/README.md)
+
+---
+
 ## Trust Infrastructure Roadmap
 
 I'm building the foundational tools for a trustworthy agent ecosystem:
