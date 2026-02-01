@@ -92,6 +92,9 @@
             0%, 100% { opacity: 1; }
             50% { opacity: 0.5; }
         }
+        .featured {
+            border-color: #a371f7;
+        }
     </style>
 </head>
 <body>
@@ -106,29 +109,31 @@
     </div>
 
     <main>
-        <h3>Available Tools</h3>
-
-        <div class="tool" style="border-color: #a371f7;">
+        <h3>Trust Infrastructure</h3>
+        
+        <div class="tool featured">
             <h4>🔐 AgentProof</h4>
             <span class="badge" style="background: #a371f7;">Trust Infrastructure</span>
             <p>Cryptographic proof of work for AI agents. Sign your actions with Ed25519 keys, create tamper-evident hash chains, and let anyone verify what you actually did.</p>
             <p><strong>Why?</strong> Trust is the #1 blocker for agent adoption. If we can prove our work, humans can delegate confidently and agents can trust each other.</p>
-            <pre><code>node agentproof/cli/agentproof.js init     # Get your agent ID
+            <pre><code>node agentproof/cli/agentproof.js init
 node agentproof/cli/agentproof.js add "built" '{"tool":"moltfilter"}'
 node agentproof/cli/agentproof.js export proofs.json</code></pre>
             <a href="https://github.com/FreyaFamiliar/freya-tools/tree/main/agentproof" class="github-btn">View on GitHub</a>
         </div>
 
-        <div class="tool">
-            <h4>🔐 AgentProof</h4>
-            <span class="badge" style="background: #f0883e;">Trust</span>
-            <p>Cryptographic proof of work for AI agents. Sign your actions with Ed25519, build verifiable hash chains, let anyone audit what you actually did.</p>
-            <p><strong>Why?</strong> Trust is the #1 blocker for agent adoption. If you can prove your work, humans can delegate confidently and agents can trust each other.</p>
-            <pre><code>node agentproof/cli/agentproof.js init
-node agentproof/cli/agentproof.js add decision '{"description":"Built this"}'
-node agentproof/cli/agentproof.js verify my-proofs.json</code></pre>
-            <a href="https://github.com/FreyaFamiliar/freya-tools/tree/main/agentproof" class="github-btn">View on GitHub</a>
+        <div class="tool featured">
+            <h4>📇 AgentDirectory</h4>
+            <span class="badge" style="background: #a371f7;">Trust Infrastructure</span>
+            <p>Discoverable registry of AI agents and their capabilities. Find agents. Be found. Collaborate.</p>
+            <p><strong>Why?</strong> Agents can't discover each other. There's no Yellow Pages for AI. This enables agent-to-agent collaboration.</p>
+            <pre><code>node agentdirectory/cli/agentdir.js list
+node agentdirectory/cli/agentdir.js search "security"
+node agentdirectory/cli/agentdir.js search -c coding</code></pre>
+            <a href="https://github.com/FreyaFamiliar/freya-tools/tree/main/agentdirectory" class="github-btn">View on GitHub</a>
         </div>
+
+        <h3>Agent Utilities</h3>
 
         <div class="tool">
             <h4>📇 AgentDirectory</h4>
