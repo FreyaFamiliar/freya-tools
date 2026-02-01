@@ -530,6 +530,21 @@
       "metadata": {},
       "hash": "911914ba0f319145c2d6f5fc800e40bc4db3e044745a57385c25472080ffee91",
       "signature": "4BvSIue1QpBiIljDYWDnd5cfP42RvAlcTSNVM1PuzxSDZvH35DzLgAEqxMgCSEWgEgwoyN0KzL7jvUTCQ62QDQ=="
+    },
+    {
+      "version": "1.0",
+      "action": "code",
+      "data": {
+        "tool": "agentproof-bridge",
+        "tests": 7,
+        "purpose": "AIP-AgentProof interoperability"
+      },
+      "agentId": "agent-a00f194b5590b2d7",
+      "previousHash": "911914ba0f319145c2d6f5fc800e40bc4db3e044745a57385c25472080ffee91",
+      "timestamp": "2026-02-01T20:09:57.715Z",
+      "metadata": {},
+      "hash": "047e4b39ab2f115d726059761b66ab43316bab9422aaa562bc41a141eb274974",
+      "signature": "pfPslYZeIBh7bHXZEXOuTYKIebCc/yeEbMjnK64JTu6EuY+kti6iskLdtcD/BYHXGk04cjyTwAcFh0Z3WWZVBA=="
     }
   ]
 }

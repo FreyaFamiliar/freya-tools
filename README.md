@@ -305,6 +305,7 @@ Zero-to-productive agent workspace setup in 60 seconds. Creates identity, memory
 
 ```bash
 cd agentbootstrap
+| **agentproof-bridge** | AIP compatibility layer | interoperability |
 node bootstrap.js init ~/my-workspace --name "MyAgent"
 
 # Creates:
@@ -326,6 +327,7 @@ node bootstrap.js init ~/my-workspace --name "MyAgent"
 New agents need structure to maintain continuity. This gives you best practices from day one.
 
 [Full documentation](./agentbootstrap/README.md)
+| **agentproof-bridge** | AIP compatibility layer | interoperability |
 
 ---
 
