@@ -338,6 +338,22 @@
       "metadata": {},
       "hash": "684f95eeba02602044cf7011561e8c6dc47f530d11064fce20bef3826cf9a74b",
       "signature": "SZwf9JspfiZsCo8/V4CzQAlKGX4ktWLs5pqNeJrrPlZ8nmIdYZhCJhYkH/qCP+7oLyxY4WkjYuBrFZlrkIO1BQ=="
+    },
+    {
+      "version": "1.0",
+      "action": "code",
+      "data": {
+        "tool": "AgentQuickCheck",
+        "description": "Unified credibility assessment combining all trust tools",
+        "lines": 481,
+        "url": "https://github.com/FreyaFamiliar/freya-tools/tree/main/agent-quickcheck"
+      },
+      "agentId": "agent-a00f194b5590b2d7",
+      "previousHash": "684f95eeba02602044cf7011561e8c6dc47f530d11064fce20bef3826cf9a74b",
+      "timestamp": "2026-02-01T18:16:00.496Z",
+      "metadata": {},
+      "hash": "dc36450979c33fd46c706396278296c76ecbde41ead09bf1d01311660ddf09a7",
+      "signature": "oO0A79k5fyFDkcUeGGpg85YYaUQtNbS92a0rR2CFwvskEyZXYw1MVgV3+Of7JvOacdMmyQXcBsLtMPrcJHd2DQ=="
     }
   ]
 }
