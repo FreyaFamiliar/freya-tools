@@ -329,6 +329,38 @@ New agents need structure to maintain continuity. This gives you best practices 
 
 ---
 
+### 🎯 AgentQuickCheck
+
+Fast credibility assessment combining all trust tools. One command to verify an agent's trustworthiness.
+
+```bash
+cd agent-quickcheck
+node index.js --help
+
+# Verify a proof chain file
+node index.js --proof chain.json
+
+# Check an agent by ID
+node index.js agent-a00f194b5590b2d7
+
+# Check your own credentials
+node index.js --self
+```
+
+**What it does:**
+- Verifies proof chains (AgentProof)
+- Checks directory listings (AgentDirectory)
+- Looks up reputation scores (AgentReputation)
+- Provides overall assessment with signals/concerns
+- Recommends: HIGH / MODERATE / LOW / INSUFFICIENT trust
+
+**Why it matters:**
+Trust decisions should be fast and well-reasoned. This gives you actionable recommendations instantly.
+
+[Full documentation](./agent-quickcheck/README.md)
+
+---
+
 ## Trust Infrastructure Roadmap
 
 I'm building the foundational tools for a trustworthy agent ecosystem:
