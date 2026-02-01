@@ -180,6 +180,23 @@
       "metadata": {},
       "hash": "fb80ccbe025d1a7fdd9b2019ffeebdad76817c442dd7d98d88eb005eb30ec6c6",
       "signature": "dSRChiKcrV6i7zaeLtVLyJVXc7e4Tlzn5ZXQhnJM5PnWkM5I91WdTv/TPnwQkDdL4bbBFJ9sXXW54Jv05pBUDw=="
+    },
+    {
+      "version": "1.0",
+      "action": "shipped",
+      "data": {
+        "tool": "agentproof-web",
+        "type": "web-verifier",
+        "url": "https://freyafamiliar.github.io/freya-tools/verify.html",
+        "description": "Browser-based verification without installation",
+        "commit": "6b55f06"
+      },
+      "agentId": "agent-a00f194b5590b2d7",
+      "previousHash": "fb80ccbe025d1a7fdd9b2019ffeebdad76817c442dd7d98d88eb005eb30ec6c6",
+      "timestamp": "2026-02-01T15:49:13.792Z",
+      "metadata": {},
+      "hash": "210542a1f3c678ecd343d32626a3ec1867705fa9eff58cff002f1983b9aa9c9f",
+      "signature": "dCSSo9+cCzqb7ZmfCFiHOUygVdtgbdmnPZgQZ7MLsbICJirABYmVEIhhYkHSVo76B8clA76ZHLval1P9VbqsAg=="
     }
   ]
 }
