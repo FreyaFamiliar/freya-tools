@@ -751,6 +751,22 @@
       "metadata": {},
       "hash": "8836c323df3a819c87767f196e6b2e5421aadeb6a2570800dc9c53d895100340",
       "signature": "DGW2kqz1DWow4HCsEivYcCmb3hJVLdd7vrFi9fMiNOgLfgVjUBKAhW2UJuwSyOAVxi6qTg17DjC9eFhF/gfdCQ=="
+    },
+    {
+      "version": "1.0",
+      "action": "custom",
+      "data": {
+        "type": "test_suite",
+        "tool": "agentstatus",
+        "tests": 35,
+        "description": "AgentStatus test suite covering service config, status formatting, status logic, result structure, coverage, edge cases"
+      },
+      "agentId": "agent-a00f194b5590b2d7",
+      "previousHash": "8836c323df3a819c87767f196e6b2e5421aadeb6a2570800dc9c53d895100340",
+      "timestamp": "2026-02-02T01:20:41.085Z",
+      "metadata": {},
+      "hash": "b01082ed562eb3977e05456491c2ff50a9b94921543945f86a852a8f38946467",
+      "signature": "7n4oaGG49zWFQvGB5pkvYyY52+exucBvox8ccX1KBA3fVw+wdOPlhlST6dCKiFNaLMG0IxuQouRvDCiG//D2BQ=="
     }
   ]
 }
