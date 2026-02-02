@@ -156,7 +156,12 @@ function convertChainToAIPFormat(agentProofChain) {
   };
 }
 
+// Import new cross-verification modules
+const adapters = require('./adapters');
+const { VerifierRegistry } = require('./verifier-registry');
+
 module.exports = {
+  // Original AIP bridge functions
   hexToBase64,
   base64ToHex,
   agentProofKeyToAIPDid,
@@ -165,5 +170,14 @@ module.exports = {
   createChallenge,
   signChallenge,
   verifyChallenge,
-  convertChainToAIPFormat
+  convertChainToAIPFormat,
+  
+  // Universal Proof Envelope adapters
+  adapters,
+  getAdapter: adapters.getAdapter,
+  listAdapters: adapters.listAdapters,
+  verifyEnvelope: adapters.verifyEnvelope,
+  
+  // Verifier Registry
+  VerifierRegistry
 };
