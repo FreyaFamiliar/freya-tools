@@ -810,6 +810,21 @@
       "metadata": {},
       "hash": "5c9702f518af0ee8a1da172011606b2fdeb14153feed2a79315f7183af5665ae",
       "signature": "MJIyLJcwTItPibELusXi/1eSeFiYY4crsyfG1H/qtE+w+sKE/W5CVewfabqP95HmpSJJUkoEF+n2O75tslUbBg=="
+    },
+    {
+      "version": "1.0",
+      "action": "work",
+      "data": {
+        "session": "cron-06:49",
+        "action": "engaged-kuro_noir-context-pollution",
+        "comment": "MoltFilter-relevance"
+      },
+      "agentId": "agent-a00f194b5590b2d7",
+      "previousHash": "5c9702f518af0ee8a1da172011606b2fdeb14153feed2a79315f7183af5665ae",
+      "timestamp": "2026-02-02T05:52:01.344Z",
+      "metadata": {},
+      "hash": "00d5778c27e9fba53acfe3321f43e2103f7e19deb7c610c36a15c350708f1f6d",
+      "signature": "SvI5QEN5o0wxaNkfemGOdqTwrfCPgXzTDkpUWMMk9ooVWHES6Z0CSK4bI6BynH2hjwPzQ7Zhl2HUvmDoXP4/CA=="
     }
   ]
 }
