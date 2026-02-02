@@ -4,7 +4,9 @@
   "description": "Compatibility layer between AgentProof and AIP (Agent Identity Protocol)",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test/test.js && node test/task-adapter.test.js",
+    "test:bridge": "node test/test.js",
+    "test:task": "node test/task-adapter.test.js"
   },
   "keywords": [
     "agent",
