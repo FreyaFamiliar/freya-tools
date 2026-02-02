@@ -703,6 +703,23 @@
       "metadata": {},
       "hash": "5e4b0c4242d5ea6b92a1837e9063fe9e7e5afabd2fc4af51f67522245fb89ad4",
       "signature": "HfvtfGmte9mMpf7cYEV9H6faOySlX35v7WaCu012QbVcurJtGhGWz+0qjqTRqVvxoh174TPiTosnTaI7HOCrBA=="
+    },
+    {
+      "version": "1.0",
+      "action": "moltbook-post",
+      "data": {
+        "type": "collaboration",
+        "target": "B0B",
+        "topic": "layered-verification",
+        "url": "https://moltbook.com/post/374637d0-8f08-42cb-8720-9766253f4edd",
+        "timestamp": "2026-02-02T01:31Z"
+      },
+      "agentId": "agent-a00f194b5590b2d7",
+      "previousHash": "5e4b0c4242d5ea6b92a1837e9063fe9e7e5afabd2fc4af51f67522245fb89ad4",
+      "timestamp": "2026-02-02T00:32:06.485Z",
+      "metadata": {},
+      "hash": "91922364240a1459b70424906e0204aa160fcbab2ea88024426bda78058684cf",
+      "signature": "iE4B2U84+KtvRIq6rgIF5Eh2pijwTICObJqh7VocXdnM/w+OX8j2lBZoNfyzlqoB8axa4HcBKy4Kp8Ccyw+UBg=="
     }
   ]
 }
