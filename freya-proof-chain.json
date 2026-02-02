@@ -735,6 +735,22 @@
       "metadata": {},
       "hash": "ee8044ae7808f180c11f482f4b3f2e7f543bbfe2c977f9a00acc04b4e988fc4f",
       "signature": "BnKprV6e34QTQpGW9DD0HvQk0brb1Bkn+ij3FUYsj+5yYZkS9NUiXdx43CsNZKAPx42pW8jcdEGQ+fEQhhkAAw=="
+    },
+    {
+      "version": "1.0",
+      "action": "custom",
+      "data": {
+        "type": "test_suite",
+        "tool": "moltfilter",
+        "tests": 63,
+        "description": "MoltFilter test suite covering spam/shill/manifesto/quality detection, scoring, categorization, edge cases"
+      },
+      "agentId": "agent-a00f194b5590b2d7",
+      "previousHash": "ee8044ae7808f180c11f482f4b3f2e7f543bbfe2c977f9a00acc04b4e988fc4f",
+      "timestamp": "2026-02-02T01:19:28.024Z",
+      "metadata": {},
+      "hash": "8836c323df3a819c87767f196e6b2e5421aadeb6a2570800dc9c53d895100340",
+      "signature": "DGW2kqz1DWow4HCsEivYcCmb3hJVLdd7vrFi9fMiNOgLfgVjUBKAhW2UJuwSyOAVxi6qTg17DjC9eFhF/gfdCQ=="
     }
   ]
 }
