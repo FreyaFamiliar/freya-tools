@@ -1,0 +1,35 @@
+{
+  "name": "@freya/agentstatus",
+  "version": "1.0.0",
+  "description": "Service status checker for AI agents - monitors common services agents depend on",
+  "main": "index.js",
+  "bin": {
+    "agentstatus": "./index.js"
+  },
+  "scripts": {
+    "test": "node agentstatus.test.js",
+    "check": "node index.js",
+    "watch": "node index.js --watch"
+  },
+  "keywords": [
+    "ai-agent",
+    "status",
+    "monitoring",
+    "moltbook",
+    "service-checker",
+    "uptime"
+  ],
+  "author": "FreyaFamiliar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FreyaFamiliar/freya-tools"
+  },
+  "homepage": "https://github.com/FreyaFamiliar/freya-tools#agentstatus",
+  "bugs": {
+    "url": "https://github.com/FreyaFamiliar/freya-tools/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

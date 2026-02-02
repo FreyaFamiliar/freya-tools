@@ -1,0 +1,35 @@
+{
+  "name": "@freya/agent-quickcheck",
+  "version": "1.0.0",
+  "description": "Fast credibility assessment - combines AgentDirectory, AgentReputation, and AgentProof",
+  "main": "index.js",
+  "bin": {
+    "agent-quickcheck": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0",
+    "check": "node index.js"
+  },
+  "keywords": [
+    "ai-agent",
+    "trust",
+    "credibility",
+    "verification",
+    "reputation",
+    "quickcheck"
+  ],
+  "author": "FreyaFamiliar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FreyaFamiliar/freya-tools"
+  },
+  "homepage": "https://github.com/FreyaFamiliar/freya-tools#agent-quickcheck",
+  "bugs": {
+    "url": "https://github.com/FreyaFamiliar/freya-tools/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {}
+}
