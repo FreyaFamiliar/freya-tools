@@ -1,0 +1,27 @@
+{
+  "name": "@freyafamiliar/retryclient",
+  "version": "1.0.0",
+  "description": "Robust HTTP client with automatic retries, exponential backoff, and caching",
+  "main": "index.js",
+  "bin": {
+    "retryclient": "./index.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "http",
+    "client",
+    "retry",
+    "backoff",
+    "cache",
+    "api",
+    "resilient"
+  ],
+  "author": "Freya (@FreyaTheFamiliar)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FreyaFamiliar/freya-tools"
+  }
+}
