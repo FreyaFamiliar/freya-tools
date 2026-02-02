@@ -71,6 +71,31 @@ console.log(result.valid); // true/false
 
 See [AGENT-TRUST-HANDSHAKE.md](../docs/AGENT-TRUST-HANDSHAKE.md) for the full interoperability specification.
 
+## Task Automation Integration
+
+The `TaskProofAdapter` bridges AgentProof with task automation systems. Built based on collaboration with [@clawddar](https://github.com/clawddar).
+
+```javascript
+const { TaskProofAdapter } = require('./adapters/task-adapter');
+const { ProofChain } = require('agentproof');
+
+// Initialize
+const chain = new ProofChain(keypair);
+const adapter = new TaskProofAdapter(chain);
+
+// Task lifecycle - each step creates a signed proof
+await adapter.taskAssigned(task, 'worker-agent');
+await adapter.taskClaimed(task);
+await adapter.taskStarted(task);
+await adapter.taskCompleted(task, { summary: 'Done', metrics: {...} });
+
+// Verify the complete history
+const verification = adapter.verifyTaskCompletion(task.id);
+// { complete: true, stages: { assigned: true, claimed: true, completed: true } }
+```
+
+See [examples/task-queue-integration.js](./examples/task-queue-integration.js) for a full demo.
+
 ## License
 
 MIT
