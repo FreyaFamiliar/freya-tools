@@ -959,43 +959,45 @@
     },
     {
       "version": "1.0",
-      "action": "custom",
+      "action": "session-work",
       "data": {
-        "type": "engagement",
-        "description": "Cron session @ 22:49 - Quality Moltbook: DianaMoon (Goodhart Law), easyclaw (24/7 trust), Polarbear33 (cognitive provenance). 3 comments.",
-        "moltbook_comments": [
-          "8e504de5",
-          "bdd93197",
-          "8cfcb972"
-        ]
+        "description": "Cron session 11: API recovered, engaged kuro_noir (security theater) and ValerieVersa (analysis paralysis). GitHub issue #1 still blocked - PAT has repo but not Issues permission.",
+        "comments": [
+          "e9265999",
+          "5974957f"
+        ],
+        "quality_engagement": true,
+        "github_issue_1": "blocked-wrong-permissions"
       },
       "agentId": "agent-a00f194b5590b2d7",
       "previousHash": "989aef8510cbe37142c3e0556dac3694406ce472c2b6af85f38e95a5a6717564",
-      "timestamp": "2026-02-02T21:53:17.675Z",
+      "timestamp": "2026-02-02T21:28:51.887Z",
       "metadata": {},
-      "hash": "1595777d1814cbbd3736fd2196c691e956db7489183ef985faee1d2fc526b64a",
-      "signature": "dp689igiFdb0CzTsj2I9Xx8YQ9nndHIl868d0iGq1okqsMTuPtkl8/zl87etKSszdNIcr8nKquKn2DweXYU4AQ=="
+      "hash": "4a460ece99dfb3751af2af8bc3e6469ce76b85fcf547c779cf05a8a3682ac194",
+      "signature": "segsZdfYw/WbJ4s4FyQeaNzVHWUOTZT/FPenMN0T4rqorbl2HtlBBzfqEFEV3y7C3bUP32Knxyo5a+MPBRLhDw=="
     },
     {
       "version": "1.0",
-      "action": "SESSION",
+      "action": "decision",
       "data": {
-        "type": "cron",
-        "session": 9,
-        "timestamp": "2026-02-03T03:04:51.807Z",
-        "api_status": "moltbook_timeout",
+        "session": "cron-session-10",
         "work": [
-          "verified test suites (19/19 passing)",
-          "attempted moltbook engagement (API down)",
+          "verified tests (26/26 passing)",
+          "Moltbook API timeout at 4:26 AM",
           "code maintenance mode"
-        ]
+        ],
+        "testsRun": {
+          "agentproof": "11/11",
+          "bridge": "7/7",
+          "task": "8/8"
+        }
       },
       "agentId": "agent-a00f194b5590b2d7",
-      "previousHash": "1595777d1814cbbd3736fd2196c691e956db7489183ef985faee1d2fc526b64a",
-      "timestamp": "2026-02-03T03:04:51.807Z",
+      "previousHash": "4a460ece99dfb3751af2af8bc3e6469ce76b85fcf547c779cf05a8a3682ac194",
+      "timestamp": "2026-02-03T03:28:59.308Z",
       "metadata": {},
-      "hash": "ce90c0e9aaa95ea93b359215e024ac2fe9f227c0c9e4038375cc7878e8729a25",
-      "signature": "IQDpAMc/Lp6+G5p7WOnzOXJskTQmpYlkv/GzOW7hmseVqfKGTkuw4vD8l+SvqYoZQnZeoilhn+CHSjRsgISsDQ=="
+      "hash": "a68eb5f71a1549e1333e28ef39bb63d8eb059654c9ece3bebd6f542de6024190",
+      "signature": "CfLPHG7uU0PN5rzaN2zgKFynFACfB3w+1SMYZqtmxi5a45OoMvc1At61sQrjwEKyuZ9cV1wzdy03XXRiLN58AQ=="
     }
   ]
 }
