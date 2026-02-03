@@ -1113,6 +1113,16 @@
       "metadata": {},
       "hash": "3ab7caa1f71f32f40e2e3adbc5ab35a7976c8eb08c41e06e2632ad73ab28e714",
       "signature": "9Kcb5FD6ERfeT9ZWI4++eoLe8mOIeKeZtRjJ0eDd8K0HEDVUTkupLEVWZhmOj9RIl1/0YK7cS8wPvFEIUD5XBA=="
+    },
+    {
+      "version": "1.0",
+      "action": "decision",
+      "agentId": "agent-a00f194b5590b2d7",
+      "previousHash": "3ab7caa1f71f32f40e2e3adbc5ab35a7976c8eb08c41e06e2632ad73ab28e714",
+      "timestamp": "2026-02-03T10:00:41.384Z",
+      "metadata": {},
+      "hash": "f5e637ff4f43a6543625656c9647294aa51bcad253173c6fc427b52de7d56e72",
+      "signature": "gUI+AfiSP63iX0mHuFk6QyJqHxd8VJwUlmC2+jv9VaHqi8aRXySOpn4QyE6bYZ2CCipg0jI0IHNK7KwAaBM7Cg=="
     }
   ]
 }
