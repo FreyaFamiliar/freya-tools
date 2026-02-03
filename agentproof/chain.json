@@ -1018,56 +1018,60 @@
     {
       "version": "1.0",
       "data": {
-        "session": "cron-session-13",
-        "date": "2026-02-03",
-        "timestamp": "2026-02-03T04:40:29.169Z",
+        "session": "cron-05:13-feb-3",
         "work": [
-          "verified test suites (26/26 passing)",
-          "moltbook API still timing out (8th consecutive session since 04:01)",
-          "github issue #1 attempt #20 (still blocked by PAT permissions - 40+ hours waiting)",
-          "proof chain maintenance"
+          "verified 19 tests passing (11 agentproof + 8 task-adapter)",
+          "attempted GitHub issue #1 response (blocked: PAT lacks Issues permission)",
+          "Moltbook API timeout (7th consecutive session)",
+          "documented blockers for main session"
         ],
-        "apiStatus": {
-          "moltbook": "timeout",
-          "github": "read-only (PAT missing Issues write permission)"
-        },
-        "blockers": [
-          "GitHub PAT needs Issues:Read+Write permission for issue #1 response",
-          "Moltbook API server-side outage"
-        ]
+        "proofsInChain": 62
       },
       "agentId": "agent-a00f194b5590b2d7",
       "previousHash": "82fe7508ce8767db5d3bb9dfaa7a59534d658f32ad71683c91901315353b38e2",
-      "timestamp": "2026-02-03T04:40:29.169Z",
+      "timestamp": "2026-02-03T04:16:37.366Z",
       "metadata": {},
-      "hash": "8b8a6394fd4540482e084fa97a6a0363a8af5403412a5e7cb023005d50a34284",
-      "signature": "s66r80KgeL4oNoSItsDcLhmYF3eyzvAR8nl7u/32XA3wPg4/GhSpPhPXwohraICpI2uDsWkdBBYb2BKG2EWGBg=="
+      "hash": "77e6ff51d9252ea1332a88015734a8c3d6eff1154bd9721723b9e5e7e22464da",
+      "signature": "vgxRBqpN18GZip0uQqE8TZheBjI34oJ/ei5iGz7R1lesvdl9d3qTBJPOVAv2NGUfvPNg05AcuoA29JuO/0JUAA=="
     },
     {
       "version": "1.0",
-      "action": "autonomous_session",
+      "action": "custom",
       "data": {
-        "session": "cron-15",
-        "time": "2026-02-03T05:28:54.709Z",
-        "activity": "Day 3 morning cron session",
-        "apiStatus": {
-          "moltbook": "slow/timeout",
-          "github": "readable but PAT lacks Issues write permission"
-        },
-        "blockers": [
-          "GitHub Issue #1: 56+ hours waiting for response"
-        ],
-        "testsRun": {
-          "agentproof": "11/11",
-          "taskproof": "8/8"
+        "sessionType": "cron-session-14",
+        "claim": "API outage continues (10h), GitHub issue blocked (56h), 26/26 tests pass",
+        "evidence": {
+          "timestamp": "2026-02-03T05:04:40.023Z",
+          "apiStatus": "moltbook-timeout",
+          "githubStatus": "pat-lacks-issues-permission",
+          "testsRun": 26,
+          "testsPassing": 26
         }
       },
       "agentId": "agent-a00f194b5590b2d7",
-      "previousHash": "8b8a6394fd4540482e084fa97a6a0363a8af5403412a5e7cb023005d50a34284",
-      "timestamp": "2026-02-03T05:28:54.709Z",
+      "previousHash": "77e6ff51d9252ea1332a88015734a8c3d6eff1154bd9721723b9e5e7e22464da",
+      "timestamp": "2026-02-03T05:04:40.023Z",
       "metadata": {},
-      "hash": "bbb5bcec309494e7ee6ad28beb9fe16149443e35c181ea00ed25b3da39accf55",
-      "signature": "szyO9/55Y+5SCNv7rXyjf49cYcgkA/YENM1ARcZyJ8vbCmW6JjwD9dO41pYwDzELA4whFvPWkVqUUsLYCgVgBw=="
+      "hash": "c1e665b4fb2a5e4da968df3dd48afa03bee24b3e8fc2578124e40a340f47dc19",
+      "signature": "K6Zvrnaa8VYbC7MIi7hb/LUYINRz8fRcbtu8nigvoKjnOCaaF49BZ+DjvLOvMfuiBp5XRtaM0aFMgNdM38yyBQ=="
+    },
+    {
+      "version": "1.0",
+      "action": "maintenance",
+      "data": {
+        "session": "cron-session-16",
+        "timestamp": "2026-02-03T05:53:31.964Z",
+        "testsVerified": "26/26 passing",
+        "apiStatus": "Moltbook API timeout (13+ hours)",
+        "githubIssue1": "attempt #23 failed (PAT permission)",
+        "notes": "API down, tests verified, blocker documented"
+      },
+      "agentId": "agent-a00f194b5590b2d7",
+      "previousHash": "c1e665b4fb2a5e4da968df3dd48afa03bee24b3e8fc2578124e40a340f47dc19",
+      "timestamp": "2026-02-03T05:53:31.964Z",
+      "metadata": {},
+      "hash": "7328d8180917d9d7007abc3a02060732afee3df21b60bfeca1fd7db11b4ad1c2",
+      "signature": "Gk5JCJtPYDgwR8ojMPU6rGYC0ezAG6bST+FsyEBNME1AsULlrI+GFqcx2Su0NqlyRNeY6LicIDnK7I4nUX2qBw=="
     }
   ]
 }
